@@ -29,3 +29,12 @@ export const downloadFile = (content :any, filename :any, type = "text/plain") =
   document.body.removeChild(a)
   URL.revokeObjectURL(url)
 }
+
+
+export const generateMetaTags = (title :any , description :any, keywords :any) => {
+  return {
+    title: `${title} | Utilities - Free Online Tools`,
+    description,
+    keywords: `${keywords}, free tools, online utilities, Utilities`,
+  }
+}

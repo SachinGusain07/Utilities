@@ -1,7 +1,7 @@
 import "./globals.css"
 import Script from "next/script"
 import { Geist, Geist_Mono } from "next/font/google"
-import ThemeProvider from "@/components/theme-provider"
+import { ThemeProvider } from "../components/Themeprovider"
 
 const geistSans = Geist({ subsets: ["latin"] })
 const geistMono = Geist_Mono({ subsets: ["latin"] })
@@ -140,7 +140,14 @@ export default function RootLayout({ children }) {
         <link rel="dns-prefetch" href="https://api.qrserver.com" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}>
-        <ThemeProvider>{children}</ThemeProvider>
+         <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
 
         {/* Google AdSense Script */}
         <Script
