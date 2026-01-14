@@ -2,14 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
 
-  // Fix: Removed 'optimization: "auto"' as it is not a valid key
+  // Fix: Removed 'optimization' and 'swcMinify'
   images: {
     formats: ["image/avif", "image/webp"],
     unoptimized: true,
   },
-
-  // Fix: swcMinify is now default and should be removed
-  compress: true,
 
   typescript: {
     ignoreBuildErrors: true,
@@ -74,5 +71,6 @@ const nextConfig = {
     ]
   },
 }
+
 
 export default nextConfig
