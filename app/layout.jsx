@@ -10,6 +10,9 @@ export const metadata = {
   title: "Utilities - 20+ Free Online Tools | Text, Image, Calculators & Security",
   description:
     "Access 20+ free online tools for text processing, image conversion, financial calculations, and security encoding. Fast, accurate, and secure. No registration needed.",
+    verification: {
+    google: "uFClRQ3NsDBSK9Ah_jtAyxlpQWyYOMr8NE-tC0aE-5o",
+  },
   keywords: [
     "free online tools",
     "word counter",
