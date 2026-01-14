@@ -2,7 +2,8 @@
 
 import { useState, useCallback } from "react"
 import ToolLayout from "@/components/ToolLayout"
-import { copyToClipboard } from "../../../lib/utils"
+import { copyToClipboard } from "../../lib/utils"
+// import { copyToClipboard } from "../../../lib/utils"
 
 // Simple hash implementations (for MD5 we'll use a basic approach)
 async function generateHash(text, algorithm) {

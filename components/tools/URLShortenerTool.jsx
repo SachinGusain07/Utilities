@@ -2,7 +2,7 @@
 
 import { useState, useCallback } from "react"
 import ToolLayout from "@/components/ToolLayout"
-import { copyToClipboard } from "../../../lib/utils"
+import { copyToClipboard } from "../../lib/utils"
 
 const generateShortCode = () => {
   const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"

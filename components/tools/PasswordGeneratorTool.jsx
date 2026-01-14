@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useMemo } from "react"
 import ToolLayout from "@/components/ToolLayout"
-import { copyToClipboard } from "../../../lib/utils"
+import { copyToClipboard } from "../../lib/utils"
 
 const generatePassword = (options) => {
   let chars = ""
