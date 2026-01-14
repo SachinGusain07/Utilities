@@ -11,7 +11,7 @@ export default function ToolLayout({ title, description, children }) {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Navigation />
+      {/* <Navigation /> */}
       <main className="container mx-auto px-4 py-12 flex-grow">
         <div className="mb-8">
           <h1 className="text-4xl font-bold mb-2">{title}</h1>
@@ -24,7 +24,7 @@ export default function ToolLayout({ title, description, children }) {
 
         <AdSense />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
