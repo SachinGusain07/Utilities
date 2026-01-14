@@ -108,8 +108,8 @@ export default function Footer() {
                 "@context": "https://schema.org",
                 "@type": "Organization",
                 name: "Utilities",
-                url: "https://utilities-vnhk.vercel.app/",
-                logo: "https://utilities-vnhk.vercel.app//logo.png",
+                url: "https://utilities-vnhk.vercel.app",
+                logo: "https://utilities-vnhk.vercel.app/logo.png",
                 description: "Free online tools for text processing, image conversion, calculations, and security",
                 sameAs: [
                   "https://twitter.com/Utilities",
