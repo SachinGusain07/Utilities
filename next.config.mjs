@@ -1,24 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Optimization flags
   reactStrictMode: true,
-  // Note: swcMinify is removed as it is now default/unrecognized in newer versions
 
-  // Image optimization
+  // Fix: Removed 'optimization: "auto"' as it is not a valid key
   images: {
     formats: ["image/avif", "image/webp"],
-    unoptimized: true, // Keep this true if you are doing a static export or using a provider that doesn't support Next.js Image Optimization
+    unoptimized: true,
   },
 
-  // Compression
+  // Fix: swcMinify is now default and should be removed
   compress: true,
 
-  // TypeScript configuration
   typescript: {
     ignoreBuildErrors: true,
   },
 
-  // Headers for caching and security
   async headers() {
     return [
       {
@@ -53,7 +49,6 @@ const nextConfig = {
     ]
   },
 
-  // SEO redirects
   async redirects() {
     return [
       {
