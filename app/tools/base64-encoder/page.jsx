@@ -1,5 +1,5 @@
 import Base64Tool from "@/components/tools/Base64Tool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "Base64 Encoder/Decoder",

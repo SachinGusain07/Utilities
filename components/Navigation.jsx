@@ -113,7 +113,7 @@ export default function Navigation() {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between py-4 px-4">
         <Link href="/" className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-          Toolnest
+          Utilities
         </Link>
 
         {/* Desktop Menu */}

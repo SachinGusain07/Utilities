@@ -7,7 +7,7 @@ const geistSans = Geist({ subsets: ["latin"] })
 const geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Toolnest - 20+ Free Online Tools | Text, Image, Calculators & Security",
+  title: "Utilities - 20+ Free Online Tools | Text, Image, Calculators & Security",
   description:
     "Access 20+ free online tools for text processing, image conversion, financial calculations, and security encoding. Fast, accurate, and secure. No registration needed.",
   keywords: [
@@ -39,24 +39,24 @@ export const metadata = {
     userScalable: true,
   },
   robots: "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
-  authors: [{ name: "Toolnest" }],
-  creator: "Toolnest",
-  publisher: "Toolnest",
+  authors: [{ name: "Utilities" }],
+  creator: "Utilities",
+  publisher: "Utilities",
   formatDetection: {
     email: false,
     telephone: false,
   },
   openGraph: {
-    title: "Toolnest - Free Online Tools Suite",
+    title: "Utilities - Free Online Tools Suite",
     description: "20+ powerful free tools for text, images, calculations, and security. All in one place.",
-    url: "https://toolnest.app",
-    siteName: "Toolnest",
+    url: "https://Utilities.app",
+    siteName: "Utilities",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Toolnest - Free Online Tools",
+        alt: "Utilities - Free Online Tools",
         type: "image/png",
       },
     ],
@@ -65,15 +65,15 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Toolnest - Free Online Tools",
+    title: "Utilities - Free Online Tools",
     description: "20+ powerful free online tools for productivity",
     images: ["/og-image.png"],
-    creator: "@toolnest",
+    creator: "@Utilities",
   },
   alternates: {
-    canonical: "https://toolnest.app",
+    canonical: "https://Utilities.app",
   },
-    generator: 'toolnest.app'
+    generator: 'Utilities.app'
 }
 
 export const viewport = {
@@ -93,14 +93,14 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta charSet="utf-8" />
-        <link rel="canonical" href="https://toolnest.app" />
-        <link rel="alternate" hrefLang="en" href="https://toolnest.app" />
+        <link rel="canonical" href="https://Utilities.app" />
+        <link rel="alternate" hrefLang="en" href="https://Utilities.app" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="apple-mobile-web-app-title" content="Toolnest" />
+        <meta name="apple-mobile-web-app-title" content="Utilities" />
 
         {/* Structured Data - Organization */}
         <script
@@ -109,8 +109,8 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebApplication",
-              name: "Toolnest",
-              url: "https://toolnest.app",
+              name: "Utilities",
+              url: "https://Utilities.app",
               description: "Free online tools for text, image, calculation, and security utilities",
               applicationCategory: "UtilityApplication",
               offers: {
@@ -120,8 +120,8 @@ export default function RootLayout({ children }) {
               },
               author: {
                 "@type": "Organization",
-                name: "Toolnest",
-                url: "https://toolnest.app",
+                name: "Utilities",
+                url: "https://Utilities.app",
               },
               aggregateRating: {
                 "@type": "AggregateRating",

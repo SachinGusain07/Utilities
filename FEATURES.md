@@ -1,8 +1,8 @@
-# Toolnest - Complete Feature List
+# Utilities - Complete Feature List
 
 ## Project Overview
 
-**Toolnest** is a production-ready, full-featured online tools platform built with Next.js 16, Tailwind CSS, and GSAP. It includes 18+ working tools, a dual-theme system, SEO optimization, and everything needed to deploy and monetize immediately.
+**Utilities** is a production-ready, full-featured online tools platform built with Next.js 16, Tailwind CSS, and GSAP. It includes 18+ working tools, a dual-theme system, SEO optimization, and everything needed to deploy and monetize immediately.
 
 ## Working Tools (18)
 
@@ -184,7 +184,7 @@
 ## File Organization
 
 ```
-toolnest/
+Utilities/
 ├── app/
 │   ├── layout.jsx              (Root layout, meta tags)
 │   ├── page.jsx                (Home page, all tools listing)
@@ -358,4 +358,4 @@ After deploying:
 
 ---
 
-**Toolnest** is production-ready and fully optimized for Google ranking, AdSense monetization, and user engagement. All code is clean, well-organized, and ready for immediate deployment.
+**Utilities** is production-ready and fully optimized for Google ranking, AdSense monetization, and user engagement. All code is clean, well-organized, and ready for immediate deployment.

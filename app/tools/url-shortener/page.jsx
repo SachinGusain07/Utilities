@@ -1,5 +1,5 @@
 import URLShortenerTool from "@/components/tools/URLShortenerTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "URL Shortener",

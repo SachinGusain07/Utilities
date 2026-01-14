@@ -1,5 +1,5 @@
 import LoanCalculatorTool from "@/components/tools/LoanCalculatorTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "Loan Calculator",

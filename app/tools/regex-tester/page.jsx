@@ -1,5 +1,5 @@
 import RegexTesterTool from "@/components/tools/RegexTesterTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "Regex Tester",

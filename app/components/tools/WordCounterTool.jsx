@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react"
 import ToolLayout from "./ToolLayout"
-import { copyToClipboard, downloadFile } from "@/lib/utils"
+import { copyToClipboard, downloadFile } from "../../../lib/utils"
 
 export default function WordCounterTool() {
   const [text, setText] = useState("")

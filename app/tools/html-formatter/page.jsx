@@ -1,5 +1,5 @@
 import HTMLFormatterTool from "@/components/tools/HTMLFormatterTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "HTML Formatter - Format & Beautify HTML Code",

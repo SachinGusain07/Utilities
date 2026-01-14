@@ -1,8 +1,8 @@
-# Toolnest - Getting Started Guide
+# Utilities - Getting Started Guide
 
-## What is Toolnest?
+## What is Utilities?
 
-Toolnest is a professional, SEO-optimized collection of 20+ free online tools including:
+Utilities is a professional, SEO-optimized collection of 20+ free online tools including:
 
 ### Tools Included
 - **Text Tools**: Word Counter, HTML Formatter, CSS Minifier, JS Minifier
@@ -26,8 +26,8 @@ Toolnest is a professional, SEO-optimized collection of 20+ free online tools in
 
 ### Step 1: Clone or Download
 ```bash
-git clone https://github.com/yourusername/toolnest.git
-cd toolnest
+git clone https://github.com/yourusername/Utilities.git
+cd Utilities
 npm install
 ```
 
@@ -50,7 +50,7 @@ vercel
 ## Project Structure
 
 ```
-toolnest/
+Utilities/
 ├── app/
 │   ├── layout.jsx          # Root layout with SEO metadata
 │   ├── page.jsx            # Homepage with all tools
@@ -109,7 +109,7 @@ toolnest/
 ## How to Earn Money
 
 ### Google AdSense
-1. Get AdSense approval (toolnest.app)
+1. Get AdSense approval (Utilities.app)
 2. Replace `YOUR_ADSENSE_ID` in layout.jsx
 3. Ads will appear in AdSense sections
 4. Earn from clicks and impressions

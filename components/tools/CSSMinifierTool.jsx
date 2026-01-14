@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useMemo } from "react"
 import ToolLayout from "@/components/ToolLayout"
-import { copyToClipboard, downloadFile } from "@/lib/utils"
+import { copyToClipboard, downloadFile } from "../../../lib/utils"
 
 const minifyCSS = (css) => {
   return css

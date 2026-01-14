@@ -1,5 +1,5 @@
 import JSMinifierTool from "@/components/tools/JSMinifierTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "JavaScript Minifier - Minify & Compress JS",

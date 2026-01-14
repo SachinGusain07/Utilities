@@ -7,7 +7,7 @@ export default function ClientLayout({ children }) {
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem("toolnest-theme") || "light"
+    const savedTheme = localStorage.getItem("Utilities-theme") || "light"
     setTheme(savedTheme)
     setMounted(true)
 
@@ -19,7 +19,7 @@ export default function ClientLayout({ children }) {
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light"
     setTheme(newTheme)
-    localStorage.setItem("toolnest-theme", newTheme)
+    localStorage.setItem("Utilities-theme", newTheme)
 
     if (newTheme === "dark") {
       document.documentElement.classList.add("dark")

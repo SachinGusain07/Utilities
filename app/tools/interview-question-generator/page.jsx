@@ -1,5 +1,5 @@
 import InterviewGeneratorTool from "@/components/tools/InterviewGeneratorTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "Interview Question Generator",

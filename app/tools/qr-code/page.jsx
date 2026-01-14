@@ -1,5 +1,5 @@
 import QRCodeTool from "@/components/tools/QRCodeTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "QR Code Generator",

@@ -1,5 +1,5 @@
 import HashGeneratorTool from "@/components/tools/HashGeneratorTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "Hash Generator",

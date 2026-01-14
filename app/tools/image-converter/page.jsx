@@ -1,5 +1,5 @@
 import ImageConverterTool from "@/components/tools/ImageConverterTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "Image Converter",

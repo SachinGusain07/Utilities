@@ -1,4 +1,4 @@
-# Toolnest Robots.txt
+# Utilities Robots.txt
 # Allow all major search engines to crawl
 
 User-agent: *
@@ -18,7 +18,7 @@ Crawl-delay: 1
 Request-rate: 30/60
 
 # Sitemap location
-Sitemap: https://toolnest.app/sitemap.xml
+Sitemap: https://Utilities.app/sitemap.xml
 
 # Specific rules for Google
 User-agent: Googlebot

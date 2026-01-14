@@ -1,5 +1,5 @@
 import CSSMinifierTool from "@/components/tools/CSSMinifierTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "CSS Minifier - Minify & Compress CSS",

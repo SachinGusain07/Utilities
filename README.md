@@ -1,6 +1,6 @@
-# Toolnest - Free Online Tools Platform
+# Utilities - Free Online Tools Platform
 
-Welcome to Toolnest, a comprehensive collection of 40+ free online tools designed to boost your productivity. Whether you're a developer, content creator, or business professional, Toolnest has the tools you need.
+Welcome to Utilities, a comprehensive collection of 40+ free online tools designed to boost your productivity. Whether you're a developer, content creator, or business professional, Utilities has the tools you need.
 
 ## 🚀 Features
 
@@ -63,7 +63,7 @@ Welcome to Toolnest, a comprehensive collection of 40+ free online tools designe
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd toolnest
+   cd Utilities
    ```
 
 2. **Install dependencies**
@@ -165,7 +165,7 @@ The platform supports Google AdSense integration for monetization. Ad placements
 
 ### Project Structure
 ```
-toolnest/
+Utilities/
 ├── app/
 │   ├── layout.jsx
 │   ├── page.jsx
@@ -253,4 +253,4 @@ For support, please open an issue on GitHub or visit our website.
 
 ---
 
-Built with ❤️ by the Toolnest Team
+Built with ❤️ by the Utilities Team

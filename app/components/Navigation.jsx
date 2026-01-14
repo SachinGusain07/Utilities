@@ -24,7 +24,7 @@ export default function Navigation({ toggleTheme, theme }) {
     >
       <div className="container-custom flex items-center justify-between py-4">
         <Link href="/" className="text-2xl font-bold text-accent">
-          Toolnest
+          Utilities
         </Link>
 
         <div className="hidden md:flex gap-8 items-center">

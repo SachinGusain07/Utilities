@@ -6,7 +6,7 @@ export default function ThemeProvider({ children }) {
   const [theme, setTheme] = useState(null)
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem("toolnest-theme") || "light"
+    const savedTheme = localStorage.getItem("Utilities-theme") || "light"
     setTheme(savedTheme)
 
     if (savedTheme === "dark") {
@@ -19,7 +19,7 @@ export default function ThemeProvider({ children }) {
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light"
     setTheme(newTheme)
-    localStorage.setItem("toolnest-theme", newTheme)
+    localStorage.setItem("Utilities-theme", newTheme)
 
     if (newTheme === "dark") {
       document.documentElement.classList.add("dark")

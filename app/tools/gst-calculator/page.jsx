@@ -1,5 +1,5 @@
 import GSTCalculatorTool from "@/components/tools/GSTCalculatorTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "GST Calculator",

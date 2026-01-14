@@ -1,5 +1,5 @@
 import ImageResizerTool from "@/components/tools/ImageResizerTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "Image Resizer",

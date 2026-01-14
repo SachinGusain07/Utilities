@@ -1,5 +1,5 @@
 import PasswordGeneratorTool from "@/components/tools/PasswordGeneratorTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "Password Generator",

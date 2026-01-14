@@ -2,7 +2,7 @@
 
 import { useState, useCallback } from "react"
 import ToolLayout from "@/components/ToolLayout"
-import { copyToClipboard, downloadFile } from "@/lib/utils"
+import { copyToClipboard, downloadFile } from "../../../lib/utils"
 
 const generateCoverLetter = (data) => {
   return `Dear Hiring Manager,

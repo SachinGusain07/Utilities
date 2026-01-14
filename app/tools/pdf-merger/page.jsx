@@ -1,5 +1,5 @@
 import PDFMergerTool from "@/components/tools/PDFMergerTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "PDF Merger",

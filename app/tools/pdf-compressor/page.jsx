@@ -1,5 +1,5 @@
 import PDFCompressorTool from "@/components/tools/PDFCompressorTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "PDF Compressor",

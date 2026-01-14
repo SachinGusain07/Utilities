@@ -1,5 +1,5 @@
 import SalaryCalculatorTool from "@/components/tools/SalaryCalculatorTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "Salary Calculator",

@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container-custom py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-bold mb-4 text-accent">Toolnest</h3>
+            <h3 className="text-xl font-bold mb-4 text-accent">Utilities</h3>
             <p className="text-foreground/70">Your complete online toolkit for productivity.</p>
           </div>
 
@@ -55,15 +55,15 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4">Connect</h4>
             <ul className="space-y-2 text-foreground/70 text-sm">
-              <li>Email: info@toolnest.app</li>
-              <li>Twitter: @toolnestapp</li>
-              <li>GitHub: toolnest</li>
+              <li>Email: info@Utilities.app</li>
+              <li>Twitter: @Utilitiesapp</li>
+              <li>GitHub: Utilities</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-border pt-8 text-center text-foreground/60 text-sm">
-          <p>&copy; 2026 Toolnest. All rights reserved.</p>
+          <p>&copy; 2026 Utilities. All rights reserved.</p>
         </div>
       </div>
     </footer>

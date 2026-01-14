@@ -1,5 +1,5 @@
 import MarkdownToHTMLTool from "@/components/tools/MarkdownToHTMLTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "Markdown to HTML",

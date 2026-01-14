@@ -1,4 +1,4 @@
-# Toolnest Quick Start Guide
+# Utilities Quick Start Guide
 
 ## Getting Started in 5 Minutes
 
@@ -7,7 +7,7 @@ Download the ZIP file and extract it to your desired location.
 
 ### 2. Install Dependencies
 ```bash
-cd toolnest
+cd Utilities
 npm install
 ```
 

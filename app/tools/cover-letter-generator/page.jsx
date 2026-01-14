@@ -1,5 +1,5 @@
 import CoverLetterGeneratorTool from "@/components/tools/CoverLetterGeneratorTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "Cover Letter Generator",

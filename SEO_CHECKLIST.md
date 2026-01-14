@@ -1,11 +1,11 @@
-# Toolnest - SEO & Deployment Checklist
+# Utilities - SEO & Deployment Checklist
 
 ## Before Going Live
 
 ### Technical Setup
 - [ ] Replace `YOUR_ADSENSE_ID` in `app/layout.jsx`
 - [ ] Replace `YOUR_GA_ID` in `app/layout.jsx`
-- [ ] Update domain in metadata (change toolnest.app if different)
+- [ ] Update domain in metadata (change Utilities.app if different)
 - [ ] Create custom favicon (favicon.ico, apple-touch-icon.png)
 - [ ] Create OG image (og-image.png - 1200x630px)
 - [ ] Test on mobile devices

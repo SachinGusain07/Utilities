@@ -1,5 +1,5 @@
 import PDFSplitterTool from "@/components/tools/PDFSplitterTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "PDF Splitter",

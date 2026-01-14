@@ -1,5 +1,5 @@
 import UUIDGeneratorTool from "@/components/tools/UUIDGeneratorTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "UUID Generator",

@@ -4,7 +4,7 @@ export default function Logo() {
       <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent text-accent-foreground font-bold">
         ⚙️
       </div>
-      <span className="text-xl font-bold">Toolnest</span>
+      <span className="text-xl font-bold">Utilities</span>
     </div>
   )
 }

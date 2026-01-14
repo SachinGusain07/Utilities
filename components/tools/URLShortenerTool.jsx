@@ -2,7 +2,7 @@
 
 import { useState, useCallback } from "react"
 import ToolLayout from "@/components/ToolLayout"
-import { copyToClipboard } from "@/lib/utils"
+import { copyToClipboard } from "../../../lib/utils"
 
 const generateShortCode = () => {
   const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
@@ -21,7 +21,7 @@ export default function URLShortenerTool() {
 
   const handleGenerate = useCallback(() => {
     const code = customCode || generateShortCode()
-    const shortUrl = `toolnest.app/${code}`
+    const shortUrl = `Utilities.app/${code}`
     setShortCode(code)
     setUrls([{ longUrl, shortUrl, code, created: new Date().toLocaleString() }, ...urls])
     setCustomCode("")

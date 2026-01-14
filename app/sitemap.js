@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = "https://toolnest.app"
+  const baseUrl = "https://Utilities.app"
 
   const tools = [
     "word-counter",

@@ -1,6 +1,6 @@
-# Toolnest - START HERE
+# Utilities - START HERE
 
-Welcome to **Toolnest**! This is your complete, production-ready online tools platform.
+Welcome to **Utilities**! This is your complete, production-ready online tools platform.
 
 ## What You Have
 
@@ -127,7 +127,7 @@ Edit `app/globals.css`:
 ```
 
 ### Change Site Name
-Search for "Toolnest" and replace with your name in:
+Search for "Utilities" and replace with your name in:
 - `app/layout.jsx`
 - `components/Logo.jsx`
 - `README.md`

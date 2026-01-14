@@ -76,20 +76,20 @@ export default function Footer() {
             <h3 className="font-bold mb-4 text-foreground">Connect</h3>
             <div className="flex gap-4">
               <a
-                href="https://twitter.com/toolnest"
+                href="https://twitter.com/Utilities"
                 className="hover:text-accent transition-colors"
                 aria-label="Twitter"
               >
                 <Twitter size={20} />
               </a>
               <a
-                href="https://linkedin.com/company/toolnest"
+                href="https://linkedin.com/company/Utilities"
                 className="hover:text-accent transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={20} />
               </a>
-              <a href="https://github.com/toolnest" className="hover:text-accent transition-colors" aria-label="GitHub">
+              <a href="https://github.com/Utilities" className="hover:text-accent transition-colors" aria-label="GitHub">
                 <Github size={20} />
               </a>
             </div>
@@ -98,7 +98,7 @@ export default function Footer() {
 
         <div className="border-t border-border pt-8">
           <div className="text-center text-sm text-muted-foreground mb-6">
-            <p>&copy; {currentYear} Toolnest. All rights reserved. Free online tools for productivity.</p>
+            <p>&copy; {currentYear} Utilities. All rights reserved. Free online tools for productivity.</p>
           </div>
 
           <script
@@ -107,14 +107,14 @@ export default function Footer() {
               __html: JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "Organization",
-                name: "Toolnest",
-                url: "https://toolnest.app",
-                logo: "https://toolnest.app/logo.png",
+                name: "Utilities",
+                url: "https://Utilities.app",
+                logo: "https://Utilities.app/logo.png",
                 description: "Free online tools for text processing, image conversion, calculations, and security",
                 sameAs: [
-                  "https://twitter.com/toolnest",
-                  "https://linkedin.com/company/toolnest",
-                  "https://github.com/toolnest",
+                  "https://twitter.com/Utilities",
+                  "https://linkedin.com/company/Utilities",
+                  "https://github.com/Utilities",
                 ],
               }),
             }}

@@ -1,5 +1,5 @@
 import WordCounterTool from "@/components/tools/WordCounterTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "Word Counter - Count Words, Characters & Statistics",

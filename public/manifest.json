@@ -1,6 +1,6 @@
 {
-  "name": "Toolnest - Free Online Tools",
-  "short_name": "Toolnest",
+  "name": "Utilities - Free Online Tools",
+  "short_name": "Utilities",
   "description": "Free online tools for text, images, calculations, and more",
   "start_url": "/",
   "display": "standalone",

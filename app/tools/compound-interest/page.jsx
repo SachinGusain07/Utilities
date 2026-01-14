@@ -1,5 +1,5 @@
 import CompoundInterestTool from "@/components/tools/CompoundInterestTool"
-import { generateMetaTags } from "@/lib/utils"
+import { generateMetaTags } from "../../../lib/utils"
 
 export const metadata = generateMetaTags(
   "Compound Interest Calculator - Calculate Investment Returns",

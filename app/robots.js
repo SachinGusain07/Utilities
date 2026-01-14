@@ -7,6 +7,6 @@ export default function robots() {
         disallow: [],
       },
     ],
-    sitemap: "https://toolnest.app/sitemap.xml",
+    sitemap: "https://Utilities.app/sitemap.xml",
   }
 }
