@@ -73,7 +73,7 @@ export const metadata = {
   alternates: {
     canonical: "https://toolnest.app",
   },
-    generator: 'v0.app'
+    generator: 'toolnest.app'
 }
 
 export const viewport = {
