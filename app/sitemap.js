@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = "https://Utilities.app"
+  const baseUrl = "https://utilities-vnhk.vercel.app/"
 
   const tools = [
     "word-counter",

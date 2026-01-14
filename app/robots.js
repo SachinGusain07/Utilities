@@ -7,6 +7,6 @@ export default function robots() {
         disallow: [],
       },
     ],
-    sitemap: "https://Utilities.app/sitemap.xml",
+    sitemap: "https://utilities-vnhk.vercel.app//sitemap.xml",
   }
 }

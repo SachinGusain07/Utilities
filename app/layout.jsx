@@ -52,7 +52,7 @@ export const metadata = {
   openGraph: {
     title: "Utilities - Free Online Tools Suite",
     description: "20+ powerful free tools for text, images, calculations, and security. All in one place.",
-    url: "https://Utilities.app",
+    url: "https://utilities-vnhk.vercel.app/",
     siteName: "Utilities",
     images: [
       {
@@ -74,7 +74,7 @@ export const metadata = {
     creator: "@Utilities",
   },
   alternates: {
-    canonical: "https://Utilities.app",
+    canonical: "https://utilities-vnhk.vercel.app/",
   },
     generator: 'Utilities.app'
 }
@@ -96,8 +96,8 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta charSet="utf-8" />
-        <link rel="canonical" href="https://Utilities.app" />
-        <link rel="alternate" hrefLang="en" href="https://Utilities.app" />
+        <link rel="canonical" href="https://utilities-vnhk.vercel.app/" />
+        <link rel="alternate" hrefLang="en" href="https://utilities-vnhk.vercel.app/" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
@@ -113,7 +113,7 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "WebApplication",
               name: "Utilities",
-              url: "https://Utilities.app",
+              url: "https://utilities-vnhk.vercel.app/",
               description: "Free online tools for text, image, calculation, and security utilities",
               applicationCategory: "UtilityApplication",
               offers: {
@@ -124,7 +124,7 @@ export default function RootLayout({ children }) {
               author: {
                 "@type": "Organization",
                 name: "Utilities",
-                url: "https://Utilities.app",
+                url: "https://utilities-vnhk.vercel.app/",
               },
               aggregateRating: {
                 "@type": "AggregateRating",
