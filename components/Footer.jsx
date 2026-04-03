@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter } from "lucide-react"
+import { GitCommit, Link2OffIcon, SeparatorVerticalIcon } from "lucide-react"
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -80,17 +80,17 @@ export default function Footer() {
                 className="hover:text-accent transition-colors"
                 aria-label="Twitter"
               >
-                <Twitter size={20} />
+                <SeparatorVerticalIcon size={20} />
               </a>
               <a
                 href="https://linkedin.com/company/Utilities"
                 className="hover:text-accent transition-colors"
                 aria-label="LinkedIn"
               >
-                <Linkedin size={20} />
+                <Link2OffIcon size={20} />
               </a>
               <a href="https://github.com/Utilities" className="hover:text-accent transition-colors" aria-label="GitHub">
-                <Github size={20} />
+                <GitCommit size={20} />
               </a>
             </div>
           </div>
